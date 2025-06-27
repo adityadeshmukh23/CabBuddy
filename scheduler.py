@@ -29,7 +29,7 @@ def schedule_reminder(user_id, chat_id, destination, departure_time_str):
         if departure_time.tzinfo is None:
             departure_time = tz.localize(departure_time)
 
-        reminder_time = departure_time - timedelta(minutes=1)
+        reminder_time = departure_time - timedelta(hours=1)
         now = datetime.now(tz)
 
         print(f"[REMINDER DEBUG] Scheduling reminder for user {user_id} at {reminder_time} for destination: {destination}")
