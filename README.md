@@ -92,8 +92,11 @@ While the current version is focused on Telegram automation, the backend is buil
 
 👨‍💻 Author
 
-Aditya Deshmukh
+Aditya Deshmukh                                    
 B.Tech, IIT Kanpur
+
+
+
 
 
 🏁 License
